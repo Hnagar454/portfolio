@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Nagar - portfolio </title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/bd36dc00c2.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Himanshu's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>About me </li>
+                    <li>projects </li>
+                    <li>Social Profiles</li>
+                    <li>Contact Me</li>
+                    <button onclick="myFunction()">dark-mode</button>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                <div class="Yellow"> Hi, I'am <span class="Yellow"> Himanshu </span> </div>
+
+                <span id="element"></span>
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+                <script>
+                    var typed = new Typed('#element', {
+                        strings: ['<i>I build amazing things for the web.</i>.', 'Front-End development', 'A MERN Stack enthusiast'],
+                        typeSpeed: 50,
+                    });
+                </script>
+                <br>
+
+                <button type="button" class="">Contact Me</button>
+
+            </div>
+            <div class="rightsection">
+                <img src="12.svg">
+            </div>
+        </section>
+        <hr>
+        <section class="second">
+            <h1>Technical Skills Which I have used So Far</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="verticaltitle">
+                        HTML
+                        <div class="verticaldesc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, pariatur non excepturi minima
+                            iste minus?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="verticaltitle">
+                        CSS 
+                        <div class="verticaldesc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, pariatur non excepturi minima
+                            iste minus?
+                        </div>
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <div class="verticaltitle">
+                        JavaScript
+                        <div class="verticaldesc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, pariatur non excepturi minima
+                            iste minus?
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="vertical">
+                    <div class="verticaltitle">
+                        React.JS
+                        <div class="verticaldesc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, pariatur non excepturi minima
+                            iste minus?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="verticaltitle">
+                        Redux
+                        <div class="verticaldesc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, pariatur non excepturi minima
+                            iste minus?
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <ul>
+                <li>About me </li>
+                <li>projects </li>
+                <li>Social Profiles</li>
+                <li>Contact Me</li>
+            </ul>
+        </div>
+        <div class="foot">
+                This is Made with Love
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+    </script>
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+</body>
+
+
+
+
+</html>
